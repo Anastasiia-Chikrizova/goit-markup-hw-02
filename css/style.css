@@ -1,0 +1,156 @@
+:root {
+  --h-color: #212121;
+}
+:root {
+  --hover-color: #2196F3;
+}
+:root {
+  --text-color: #757575;
+}
+:root {
+  --bgc-color: #FFFFFF;
+}
+:root {
+  --main-text: Roboto;
+}
+
+body {
+  background-color: #F5F4FA;
+    color: var(--h-color);
+    font-family: 'Roboto','Arial', 'Helvetica', sans-serif;
+    font-weight:500;
+    font-size: 16px;
+    line-height: 1.14;
+    font-style: normal;
+}
+ul
+{
+  list-style-type: none;
+}
+.logo
+{
+    font-family: 'Raleway', sans-serif;
+font-weight: bold;
+font-size: 26px;
+line-height: 1.19;
+text-decoration: none;
+}
+.web {
+color:var(--hover-color);
+}
+.studio {
+color: #000000;
+}
+.nav {
+  background-color: var(--bgc-color);
+}
+.nav_li a
+{
+  text-decoration: none;
+}
+.nav a{
+  color: var(--h-color);
+}
+a:hover {
+color: var(--hover-color);
+}
+a:focus {
+  color: var(--hover-color);
+}
+.address
+{
+  color: var(--text-color);
+}
+.address a
+{
+  color: var(--text-color);
+  text-decoration: none;
+}
+.address a:hover {
+color: var(--hover-color);
+}
+.address a:focus {
+  color: var(--hover-color);
+}
+.footer {
+  color: var(--bgc-color);
+  background-color:#2F303A;
+  font-size: 14px;
+  line-height: 1.17;
+  font-weight: 400;
+}
+.main_section {
+  background-color: #2F303A;
+}
+.main_section h1{
+  color: var(--bgc-color);
+font-weight: 900;
+font-size: 44px;
+line-height: 1.36;
+}
+.main_section button 
+{
+  color: var(--bgc-color);
+  background:var(--hover-color);
+font-size: 16px;
+line-height: 1.8;
+cursor: pointer;
+}
+.advantages h3
+{
+  font-weight: bold;
+font-size: 14px;
+line-height: 1.14;
+}
+.advantages p
+{
+  color: var(--text-color);
+font-size: 14px;
+line-height: 1.7;
+}
+.what_do {
+  font-weight:bold;
+  font-sizes:36px;
+  line-height: 1.16;
+}
+.ourteams {
+  background-color:#F5F4FA;
+}
+.ourteams  h2
+{
+font-weight: bold;
+font-size: 36px;
+line-height: 1.16;
+}
+.ourteams ul {
+  background-color:var(--bgc-color);
+}
+.ourteams h3 {
+  font: size 16px; ;
+  line-height: 3.16;
+}
+.ourteam
+{
+  color: var(--text-color);
+  font-weight: bold;
+font-size: 16px;
+line-height: 1.168;
+}
+.studio_footer {
+color: var(--bgc-color);
+}
+
+.products {
+  background-color: var(--bgc-color);
+}
+.nav_portfolio {
+  background-color: #E5E5E5;
+}
+button:hover {
+  color: var(--bgc-color);
+  background-color: var(--hover-color);
+}
+button:focus {
+  color: var(--bgc-color);
+  background-color:var(--hover-color);
+}
