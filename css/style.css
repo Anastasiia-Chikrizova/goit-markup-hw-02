@@ -11,7 +11,7 @@
   --bgc-color: #FFFFFF;
 }
 :root {
-  --main-text: Roboto;
+  --main-text: 'Roboto','Arial', 'Helvetica', sans-serif;
 }
 
 body {
@@ -22,10 +22,6 @@ body {
     font-size: 16px;
     line-height: 1.14;
     font-style: normal;
-}
-ul
-{
-  list-style-type: none;
 }
 .logo
 {
@@ -44,7 +40,10 @@ color: #000000;
 .nav {
   background-color: var(--bgc-color);
 }
-.nav_li a
+.nav ul{
+  list-style-type: none;
+}
+.nav-li a
 {
   text-decoration: none;
 }
@@ -60,6 +59,9 @@ a:focus {
 .address
 {
   color: var(--text-color);
+}
+.address ul{
+  list-style-type: none;
 }
 .address a
 {
@@ -79,16 +81,19 @@ color: var(--hover-color);
   line-height: 1.17;
   font-weight: 400;
 }
-.main_section {
+.main-section ul {
+  list-style-type: none;
+}
+.main-section {
   background-color: #2F303A;
 }
-.main_section h1{
+.main-section h1{
   color: var(--bgc-color);
 font-weight: 900;
 font-size: 44px;
 line-height: 1.36;
 }
-.main_section button 
+.main-section button 
 {
   color: var(--bgc-color);
   background:var(--hover-color);
@@ -96,6 +101,10 @@ font-size: 16px;
 line-height: 1.8;
 cursor: pointer;
 }
+.advantages ul {
+  list-style-type: none;
+}
+
 .advantages h3
 {
   font-weight: bold;
@@ -108,7 +117,7 @@ line-height: 1.14;
 font-size: 14px;
 line-height: 1.7;
 }
-.what_do {
+.what-do {
   font-weight:bold;
   font-sizes:36px;
   line-height: 1.16;
@@ -125,6 +134,9 @@ line-height: 1.16;
 .ourteams ul {
   background-color:var(--bgc-color);
 }
+.ourteams ul {
+  list-style-type: none;
+}
 .ourteams h3 {
   font: size 16px; ;
   line-height: 3.16;
@@ -136,16 +148,14 @@ line-height: 1.16;
 font-size: 16px;
 line-height: 1.168;
 }
-.studio_footer {
+.studio-footer {
 color: var(--bgc-color);
 }
 
 .products {
   background-color: var(--bgc-color);
 }
-.nav_portfolio {
-  background-color: #E5E5E5;
-}
+
 button:hover {
   color: var(--bgc-color);
   background-color: var(--hover-color);
@@ -154,3 +164,19 @@ button:focus {
   color: var(--bgc-color);
   background-color:var(--hover-color);
 }
+.nav-portfolio {
+  list-style-type: none;
+}
+.nav-portfolio button {
+  cursor: pointer;
+}
+ .products {
+   list-style-type: none;
+ }
+ .products a{
+   text-decoration: none;
+   color: var(--h-color);
+ }
+ .products a:hover {
+   color: var(--hover-color);
+ }
