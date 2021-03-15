@@ -68,11 +68,9 @@ a:focus {
   color: var(--text-color);
   text-decoration: none;
 }
-.address a:hover {
-color: var(--hover-color);
-}
+.address a:hover,
 .address a:focus {
-  color: var(--hover-color);
+color: var(--hover-color);
 }
 .footer {
   color: var(--bgc-color);
@@ -156,13 +154,10 @@ color: var(--bgc-color);
   background-color: var(--bgc-color);
 }
 
-button:hover {
-  color: var(--bgc-color);
-  background-color: var(--hover-color);
-}
+button:hover,
 button:focus {
   color: var(--bgc-color);
-  background-color:var(--hover-color);
+  background-color: var(--hover-color);
 }
 .nav-portfolio {
   list-style-type: none;
@@ -177,6 +172,7 @@ button:focus {
    text-decoration: none;
    color: var(--h-color);
  }
- .products a:hover {
+ .products a:hover
+ .products a:focus {
    color: var(--hover-color);
  }
