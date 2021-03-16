@@ -1,0 +1,119 @@
+:root {
+  --h-color: #212121;
+}
+:root {
+  --hover-color: #2196f3;
+}
+:root {
+  --text-color: #757575;
+}
+:root {
+  --frame-color: #ffffff;
+}
+
+body {
+  background-color: #f5f4fa;
+  color: var(--h-color);
+  font-family: 'Roboto', 'Arial', 'Helvetica', sans-serif;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 1.14;
+  font-style: normal;
+}
+.button {
+  cursor: pointer;
+  text-decoration: none;
+}
+.button:hover,
+.button:focus {
+  color: var(--frame-color);
+  background-color: var(--hover-color);
+}
+.link {
+  text-decoration: none;
+}
+.link:hover,
+.link:focus {
+  color: var(--hover-color);
+}
+
+.logo {
+  font-family: 'Raleway', sans-serif;
+  font-weight: 700;
+  font-size: 26px;
+  line-height: 1.19;
+  text-decoration: none;
+  color: #000000;
+}
+
+.ul {
+  list-style-type: none;
+}
+.nav {
+  background-color: var(--frame-color);
+}
+.ul-address {
+  color: var(--text-color);
+}
+
+.footer {
+  color: var(--frame-color);
+  background-color: #2f303a;
+  font-size: 14px;
+  line-height: 1.17;
+  font-weight: 400;
+}
+
+.main-section {
+  background-color: #2f303a;
+}
+.main-section h1 {
+  color: var(--frame-color);
+  font-weight: 900;
+  font-size: 44px;
+  line-height: 1.36;
+}
+.button-main {
+  color: var(--frame-color);
+  background: var(--hover-color);
+  line-height: 1.8;
+}
+
+.advantages h3 {
+  font-weight: 700;
+  font-size: 14px;
+}
+.advantages p {
+  color: var(--text-color);
+  font-size: 14px;
+  line-height: 1.7;
+}
+.what-do {
+  font-weight: 700;
+  font-sizes: 36px;
+  line-height: 1.16;
+}
+.ourteams {
+  background-color: #f5f4fa;
+}
+.ourteams h2 {
+  font-weight: bold;
+  font-size: 36px;
+  line-height: 1.16;
+}
+.ul-ourteams {
+  background-color: var(--frame-color);
+}
+
+.ourteams h3 {
+  line-height: 3.16;
+}
+.ourteam {
+  color: var(--text-color);
+  font-weight: bold;
+  line-height: 1.168;
+}
+
+.products {
+  background-color: var(--frame-color);
+}
