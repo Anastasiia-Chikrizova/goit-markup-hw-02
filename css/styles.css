@@ -105,7 +105,12 @@ body {
   text-align: center;
   font-size: 16px;
 }
-
+.ourteams {
+  background-color: #f5f4fa;
+}
+.ourteams > .list {
+  background-color: var(--frame-color);
+}
 .titles {
   font-weight: 700;
 }
